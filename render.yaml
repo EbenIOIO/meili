@@ -18,4 +18,4 @@ services:
         value: /meili-data
       - key: MEILI_ENV
         value: development
-    healthCheckPath: /healthz
+    healthCheckPath: /health
